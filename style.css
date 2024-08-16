@@ -1,10 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  Roboto;
+}
+.top{
+    background-color: #1f2937;
+
 }
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    color: #f9faf8;
+    font-size: 24px;
+
+}
+.logo{        
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    list-style-type: none;
     justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
+.gau, .dro {
+    display: flex;
+    justify-content: center;
 }
