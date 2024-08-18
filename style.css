@@ -3,9 +3,14 @@ body{
     margin: 0;
     padding: 0;
     font-family:  Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
 }
 .top{
     background-color: #1f2937;
+    height: 90vh;
 
 }
 .header{
@@ -31,9 +36,147 @@ a{
     padding: 0;
     text-decoration: none;
     font-size: 18px;
-    color: #f9faf8;
+    color: #e5e7eb;
 }
 .gau, .dro {
     display: flex;
     justify-content: center;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;  
+      margin-top: 150px;
+
+}
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    width: 500px;
+    color: #f9faf8;
+}
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 460px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    font-size:25px;
+    border-radius: 10px;
+    cursor: pointer;
+border: none;
+padding: 9px 40px;
+font-weight: 600;
+}
+.img{
+    width: 600px;
+    height: 300px;
+    background-color: #797f8b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mitext{
+    color: #e5e7eb;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 65vh;
+}
+.h-info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.card-items{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    height:200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.textc{
+    width: 200px;
+    text-align: center;
+    color:#797f8b;
+}
+.quote{
+    background-color: #e5e7eb;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.qtext{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+.auteur{
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 600px;
+
+}
+.call{
+    /* display: flex; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.callto{
+    background-color: #3882f6;
+    height: 180px;
+    width: 1300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.ctext{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.minic{
+    color: white;
+}
+.right button{
+    border: 2px solid white;
+}
+footer{
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 20px;
 }
